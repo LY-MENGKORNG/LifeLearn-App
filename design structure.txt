@@ -1,0 +1,12 @@
+ 
+		+ Design path
+	* Default(
+		- page padding : 
+			- xl: 6rem (80px)
+			- lg: 4rem (64px)
+			- md & sm: 2rem (32px)	
+	)
+
+
+	- Welcome page
+	-  
