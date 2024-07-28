@@ -1,12 +1,12 @@
-import { pageLayout, responsiveLayout } from "../assets/BaseStyle"
+import { responsiveLayout } from "../assets/BaseStyle"
 import WebFooter from "./website/WebFooter"
 import WebHeader from "./website/WebHeader"
 
 export default function WebLayout({ children }: any) {
     return (
-        <div className={pageLayout}>
+        <div className="flex flex-col min-h-screen">
             <WebHeader />
-            <main className={ responsiveLayout }>
+            <main className={"py-5 main-pink flex-1" + responsiveLayout}>
                 {children}
             </main>
             <WebFooter />

@@ -7,12 +7,12 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function BaseCard() {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card /*sx={{ maxWidth: 345 }} */ >
             <CardActionArea>
                 <CardMedia
                     component="img"
                     height="140"
-                    image="https://img.freepik.com/premium-photo/chinese-new-year-celebration-dragon_188078-37690.jpg?ga=GA1.1.570467518.1716652888&semt=sph"
+                    image="src/assets/images/photo_2024-07-23_13-01-39.jpg"
                     alt="green iguana"
                 />
                 <CardContent>

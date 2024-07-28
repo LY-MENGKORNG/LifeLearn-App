@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import WelcomePage from "./Welcome"
+import Dashboard from "./System/Dashboard"
 
-export default function Website() {
+export default function System() {
   return (
     <Router>
       <Routes>
-        <Route path="/" Component={WelcomePage} />
+        <Route path="/" Component={ Dashboard } /> 
       </Routes>
     </Router>
   )

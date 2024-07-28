@@ -1,5 +1,6 @@
-import System from "./pages/System/System"
-import Website from "./pages/Website/Website"
+
+import System from "./pages/System";
+import Website from "./pages/Website"
 
 function App() {
   const test: boolean = true;
